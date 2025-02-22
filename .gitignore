@@ -1,0 +1,45 @@
+# dependencies
+node_modules/
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Pastas de build e distribuição
+dist/
+build/
+out/
+
+# macOS
+.DS_Store
+*.pem
+
+# logs
+logs/
+*.log
+
+# local env files
+.env*.local
+
+# Dependências do sistema
+.npm
+.yarn/
+yarn.lock
+package-lock.json
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+*/uploads
+
